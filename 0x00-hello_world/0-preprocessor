@@ -1,2 +1,2 @@
 #!/bin/bash
-cat $CFILE |gcc -E main.c -o c
+cat $CFILE|gcc -E main.c -o c
