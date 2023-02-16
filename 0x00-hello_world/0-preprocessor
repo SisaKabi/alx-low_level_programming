@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $CFILE |gcc -std=gnu89 -S main.c -o c
+gcc -E -std=gnu89 main.c -o c |cat c
