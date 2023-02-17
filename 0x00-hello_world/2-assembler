@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -c -std=gnu89 1-main.c -o main.s
