@@ -8,10 +8,9 @@
  */
 int main(void)
 {
-	char a[60];
-
-	strcpy(a,"Programming is like building a multilingual puzzle,");
-
+	char a[55];
+	
+	strcpy(a,'"Programming is like building a multilingual puzzle"');
 	puts(a);
 
 	return (0);
