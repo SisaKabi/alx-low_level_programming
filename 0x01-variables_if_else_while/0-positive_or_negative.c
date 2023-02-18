@@ -5,6 +5,8 @@
 
 /**
  * main - checks if the number is positive negative or zero
+ *
+ * Return: 0 for success, otherwise for failure
  */
 int main(void)
 {
