@@ -3,7 +3,9 @@
 #include <stdlib.h>
 /* more headers go there */
 
-/*betty style doc for function main goes there*/
+/**
+ * main - checks if the number is positive negative or zero
+ */
 int main(void)
 {
 	int n;
