@@ -7,11 +7,10 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{
-	char a[55];
-	
-	strcpy(a,""Programming is like building a multilingual puzzle"\n);
-	puts(a);
+{	
+	char c [65];
+	strcpy (c,'"Programming is like building a multilingual puzzle');
+	puts(c);
 
 	return (0);
 }
