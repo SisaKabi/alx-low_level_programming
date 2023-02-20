@@ -1,13 +1,18 @@
 #include <stdlib.h>
 #include <stdio.h>
-
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char x;
-	while ((x = 'a') && x!= 'q' && x!= 'e')
+	char a;
+	a = 'a';
+	while (a != 'e' && a != 'q')
 	{
-		putchar(x);
-		x++;
+		putchar(a);
+		a++;
 	}
 	putchar('\n');
 	return (0);
