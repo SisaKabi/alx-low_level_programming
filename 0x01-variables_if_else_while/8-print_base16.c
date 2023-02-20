@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int n;
+	char n;
 	char m;
 
 	n = 0;
