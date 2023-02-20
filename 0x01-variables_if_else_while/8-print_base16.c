@@ -10,15 +10,13 @@ int main(void)
 {
 	int n;
 	char m;
-	char r;
 
 	n = 0;
 	m = 'a';
-	r = (char)n;
 
 	while (n <= 9 && m <= 'f')
 	{
-		putchar(r);
+		putchar(n);
 		putchar(m);
 		n++;
 		m++;
