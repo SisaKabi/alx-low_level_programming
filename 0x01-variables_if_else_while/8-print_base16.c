@@ -11,15 +11,13 @@ int main(void)
 	char n;
 	char m;
 
-	n = 0;
-	m = 'a';
-
-	while (n <= 9 && m <= 'f')
+	for (n = 0; n <= 9; n++)
 	{
 		putchar(n);
+	}
+	for (m = 'a'; m <= 'f'; m++)
+	{
 		putchar(m);
-		n++;
-		m++;
 	}
 	putchar ('\n');
 
