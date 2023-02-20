@@ -7,15 +7,13 @@
  */
 int main(void)
 {
-	char a;
-	a = 'a';
+	int n = 0;
 
-	while (a != 'e' && a != 'q')
+	while (n < 10)
 	{
-		putchar(a);
-		a++;
+		printf("%d",n);
+		n++;
 	}
-	putchar('\n');
 	return (0);
 }
 
