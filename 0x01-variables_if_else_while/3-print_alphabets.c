@@ -8,16 +8,17 @@
  */
 int main(void)
 {
-        char n;
-	char m;
-	n = 'a';
-	m = 'A';
+	char lower, upper;
 
-	while (n <= 'z' && m <= 'Z')
+	lower = 'a';
+
+	upper = 'A';
+
+	while (lower <= 'z' && upper <= 'Z')
 	{
-		putchar(n);
-		putchar(m);
+		putchar(lower);
+		putchar(upper);
 		putchar('$');
 	}
-        return (0);
+	return (0);
 }
