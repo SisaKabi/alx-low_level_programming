@@ -8,14 +8,10 @@
 
 int main(void)
 {
-	int b;
 	char n;
 	char m;
 
-	b = 0;
-	n = (char)b;
-
-	for (n = 0; n <= 9; n++)
+	for (n = '0'; n <= '9'; n++)
 	{
 		putchar(n);
 	}
