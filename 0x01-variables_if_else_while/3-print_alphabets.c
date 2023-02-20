@@ -10,12 +10,14 @@ int main(void)
 {
         char n;
 	char m;
+	n = 'a';
+	m = 'A';
 
-        for (n = 'a' && m = 'A'; n <= 'z' && m <= 'Z'; n++ m++)
-        {
-                putchar(n);
-		putchar(m &&'$');
-		putchar('\n');
-        }
+	while (n <= 'z' && m <= 'Z')
+	{
+		putchar(n);
+		putchar(m);
+		putchar('$');
+	}
         return (0);
 }
