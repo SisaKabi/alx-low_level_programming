@@ -1,11 +1,11 @@
-#include <main.h>
+#include "main.h"
 /**
- * main - Entry point
+ * main -
  *
- * Return: Always 0 (Success)
+ * Return:
  */
-
-int main (void)
-{
+int main(void)
+{	
+	printer();
 	return 0;
 }
