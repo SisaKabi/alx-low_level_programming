@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * main -
+ * main - Prints _putchar to the stdout
  *
- * Return:
+ * Return: Always 0 (Success)
  */
 int main(void)
-{	
+{
 	printer();
-	return 0;
+	return (0);
 }
