@@ -4,7 +4,7 @@
  *
  * Return: Always 0.
  */
-int alphabet (void)
+int alphabet(void)
 {
 	char c;
 
