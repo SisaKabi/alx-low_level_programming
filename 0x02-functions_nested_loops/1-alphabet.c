@@ -1,4 +1,3 @@
-#include "_putchar.c"
 
 /**
  * alphabet - prints the english alphabet to stdout
@@ -13,7 +12,6 @@ int alphabet (void)
 
 	while (c <= 'z')
 	{
-		_putchar(c);
 		c++;
 	}
 	return (0);
