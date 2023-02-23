@@ -24,3 +24,23 @@ void print_alphabet(void)
 	putchar('\n');
 	return;
 }
+int print_alphabet_x10(void)
+{	
+	char a;
+	int i = 0;
+
+	while (i < 10)
+	{
+		a = 'a';
+
+		while (a <= 'z')
+		{
+			putchar(a);
+			a++;
+		}
+		putchar('\n');
+		i++;
+	}
+	return (0);
+}
+int alphabet_x10(void);
