@@ -5,16 +5,16 @@
 /**
  * main - Entry point
  *
- * Return - Always 0
+ * Return: Always 0
  */
 
 int main(void)
 {
 	int n = 0;
 	
-	while ( n <= 9)
+	while (n <= 9)
 	{
-		putchar(48+n);
+		putchar(48 + n);
 		n++;
 	}
 	putchar('\n');
