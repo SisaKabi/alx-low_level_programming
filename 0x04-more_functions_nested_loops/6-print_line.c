@@ -2,6 +2,7 @@
 
 /**
  * print_line - prints  a line of characters to the stdout
+ * @n: the number of times '_' character is printed
  *
  * Return: void function
  */
@@ -10,7 +11,8 @@ void print_line(int n)
 	if (n <= 0)
 	{
 		_putchar('\n');
-	}else
+	}
+	else
 	{
 		int p;
 
